@@ -15,7 +15,7 @@ with open("{}/database/users.json".format(database_path), "r") as f:
 def hello():
     ''' Greet the user '''
 
-    return "Hey! The service is up, how about doing something useful"
+    return "Hey! Sonali's service is up!!"
 
 @app.route('/users', methods=['GET'])
 def users():

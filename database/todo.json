@@ -1,19 +1,25 @@
 {
-    "saurabh_badhwar": {
+    "Ros": {
         "home": [
-            "Buy milk",
-            "Look for pest control service",
-            "Get a new carpet"
+            "Work 1",
+			"Work 2",
+			"Work 3"
         ],
         "work": [
             "Complete the blogpost",
             "Create presentation for meeting"
         ]
     },
-    "aniket": {
-        "school": [
+    "Rachel": {
+        "home": [
             "Complete homework",
-            "Prepare for test"
+            "Prepare for party"
+        ]
+    },
+	 "Rachel": {
+        "home": [
+            "Complete cleaning",
+            "Prepare food"
         ]
     }
 }

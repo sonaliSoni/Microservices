@@ -1,17 +1,22 @@
 {
-    "saurabh_badhwar": {
+    "Ros": {
         "id":1,
-        "name":"Saurabh Badhwar",
+        "name":"Ros Geller",
         "verified":1
     },
-    "aniket": {
+    "Rachel": {
         "id":2,
-        "name":"Aniket Sharma",
+        "name":"Rachel Green",
         "verified":1
     },
-    "luckas": {
+    "Monica": {
         "id":4,
-        "name":"Luckas Friendel",
+        "name":"Monica Geller",
         "verified":0
+    },
+	"Chandler" : {
+	 "id":5,
+        "name":"Chandler Bing",
+        "verified":1
     }
 }
