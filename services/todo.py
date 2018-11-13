@@ -13,7 +13,10 @@ with open('{}/database/todo.json'.format(database_path), "r") as jsf:
 def hello():
     ''' Greet the user '''
 
-    return "Todo service is up"
+    return """Work todo today for users service is up"
+	"Try these endpoints to test Microservice2
+	1. /lists
+	2. /lists/<username>"""
 
 @app.route('/lists', methods=['GET'])
 def show_lists():

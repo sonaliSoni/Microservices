@@ -15,8 +15,13 @@ with open("{}/database/users.json".format(database_path), "r") as f:
 def hello():
     ''' Greet the user '''
 
-    return "Hey! Sonali's service is up!!"
-
+    return """Hey! Sonali's service is up!!
+	Try these endpoints to test Microservice1
+	1. /users
+	"2. /users/<username>/lists 
+	"3. /users/<username> """
+	
+	
 @app.route('/users', methods=['GET'])
 def users():
     ''' Returns the list of users '''
